@@ -8,21 +8,15 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
     tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    travel,
+    blinkit,
+    ESG,
   } from "../assets";
   
   export const navLinks = [
@@ -81,10 +75,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -97,10 +87,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -108,58 +94,15 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Web Developer Intern",
+      company_name: "Prodigy-Infotech",
       icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2025 - Feb 2025",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,66 +141,58 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI-Powered Travel Booking Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+       "AI-driven travel platform that enables users to search, compare, and book hotels seamlessly, featuring an OpenAI-powered assistant for personalized recommendations and enhanced trip planning.",
       tags: [
         {
-          name: "react",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "OpenAI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: travel,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Blinkit Sales Dashboard (Clone)",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+       "Interactive sales analytics dashboard replicating Blinkit’s KPIs, offering dynamic visualizations of revenue, orders, customer trends, and product categories for data-driven decision-making.",
       tags: [
         {
-          name: "react",
+          name: "Power BI",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Excel",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
+      image: blinkit,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "ESG Monitoring with AI Chatbot",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "AI-powered ESG monitoring platform that tracks real-time carbon emissions and other sustainability metrics, supported by LangChain-based chatbot that delivers instant insights and personalized environmental recommendations.",
       tags: [
         {
-          name: "nextjs",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "LangChain",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Open AI",
+          color: "orange-text-gradient",
         },
       ],
-      image: tripguide,
+      image: ESG,
       source_code_link: "https://github.com/",
     },
   ];
