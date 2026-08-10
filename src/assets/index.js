@@ -8,8 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -17,11 +15,10 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-
-import tesla from "./company/tesla.png";
+import express from "./tech/express.png";
+import prodigy from "./company/prodigy.jpeg";
 import travel from "./travel.png";
-import blinkit from "./blinkit.png";
+import smartAc from "./smart-ac.png";
 import ESG from "./ESG.png";
 
 export {
@@ -34,18 +31,16 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
+  express,
   reactjs,
   tailwind,
-  typescript,
-  tesla,
+  prodigy,
   travel,
-  blinkit,
+  smartAc,
   ESG,
 };
