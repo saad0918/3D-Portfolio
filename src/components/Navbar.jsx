@@ -60,12 +60,12 @@ const Navbar = () => {
           />
 
           <div className="flex flex-col items-start">
-            <span className="text-[18px] font-bold text-white">
+            <span className="text-[20px] font-bold text-white">
               Saad Ali
             </span>
 
-            <span className="text-[11px] text-secondary">
-              Software Developer
+            <span className="text-[13px] text-secondary">
+              Full Stack & AI Developer
             </span>
           </div>
         </button>
