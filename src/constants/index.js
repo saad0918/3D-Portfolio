@@ -10,6 +10,10 @@ import {
   mongodb,
   express,
   git,
+  python,
+  langchain,
+  googleGemini,
+  openai,
   travel,
   smartAc,
   ESG,
@@ -33,7 +37,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "AI & RAG Developer",
+    title: "AI Engineer",
     icon: backend,
   },
   {
@@ -76,8 +80,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-  name: "Express JS",
-  icon: express,
+    name: "Express JS",
+    icon: express,
   },
   {
     name: "MongoDB",
@@ -86,6 +90,22 @@ const technologies = [
   {
     name: "Git",
     icon: git,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "LangChain",
+    icon: langchain,
+  },
+  {
+    name: "OpenAI",
+    icon: openai,
+  },
+  {
+    name: "Google Gemini",
+    icon: googleGemini,
   },
 ];
 
