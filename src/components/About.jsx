@@ -46,16 +46,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]"
       >
-        I'm a Software Developer focused on building modern, responsive,
-        and user-friendly web applications. I work with technologies like
-        JavaScript, React, Node.js, and MongoDB to create practical solutions
-        for real-world problems.
+        I'm a Full Stack & AI Developer passionate about building modern,responsive, and user-friendly web applications. I work with React.js, JavaScript, Node.js, Express.js, MongoDB, and Python to develop scalable and practical solutions.
         <br />
         <br />
-        I'm also interested in emerging technologies and currently exploring
-        Artificial Intelligence and Generative AI to expand my development
-        skills and build smarter applications.
-      </motion.p>
+        I also have a strong interest in Artificial Intelligence, Generative AI, and RAG-based applications. I enjoy combining full-stack development with AI to build intelligent applications that solve real-world problems.
+        </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
