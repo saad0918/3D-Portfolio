@@ -17,6 +17,9 @@ import {
   travel,
   smartAc,
   ESG,
+  blogAi,
+  documentResearch,
+  weather,
   prodigy,
 } from "../assets";
 
@@ -128,6 +131,33 @@ const experiences = [
 
 const projects = [
   {
+    name: "Document Research Agent",
+    description:
+    "Agentic RAG application that allows users to upload PDF documents and ask questions using retrieval-augmented generation. The system retrieves relevant document context and uses an AI model to generate grounded answers.",
+    tags: [
+    {
+      name: "Python",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "LangChain",
+      color: "green-text-gradient",
+    },
+    {
+      name: "RAG",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "FastAPI",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: documentResearch,
+  source_code_link: "https://github.com/saad0918/document-research-agent",
+  live_link: "https://documind-ai-agent.streamlit.app/",
+},
+
+  {
     name: "AI-Powered Travel Booking Website",
     description:
       "AI-driven travel platform that enables users to search, compare, and book hotels seamlessly, featuring an OpenAI-powered assistant for personalized recommendations and enhanced trip planning.",
@@ -142,9 +172,55 @@ const projects = [
       },
     ],
     image: travel,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/saad0918/Trip-booking-web-Application-",
   },
+  {
+  name: "AI Blog Generator",
+  description:
+    "Full-stack AI-powered blogging platform that enables users to create, publish, and manage blogs with AI-assisted content generation, along with authentication, comments, bookmarks, and subscriptions.",
+  tags: [
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Node.js",
+      color: "green-text-gradient",
+    },
+    {
+      name: "MongoDB",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Gemini",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: blogAi,
+  source_code_link: "https://github.com/saad0918/BlogAI",
+},
 
+  {
+    name: "ESG Monitoring with AI Chatbot",
+    description:
+      "AI-powered ESG monitoring platform that tracks sustainability metrics and provides an AI chatbot for generating insights and personalized environmental recommendations.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LangChain",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ESG,
+    source_code_link: "https://github.com/saad0918/Esg-Monitoring-",
+  },
   {
     name: "Smart AC Monitoring System",
     description:
@@ -170,28 +246,31 @@ const projects = [
     image: smartAc,
     source_code_link: "https://github.com/saad0918/smart-ac-monitoring",
   },
-
   {
-    name: "ESG Monitoring with AI Chatbot",
-    description:
-      "AI-powered ESG monitoring platform that tracks sustainability metrics and provides an AI chatbot for generating insights and personalized environmental recommendations.",
-    tags: [
-      {
-        name: "MERN",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "LangChain",
-        color: "green-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: ESG,
-    source_code_link: "https://github.com/",
-  },
+  name: "Weather Application",
+  description:
+    "Responsive weather application built with React.js that allows users to search for cities and view real-time weather information including temperature, humidity, wind speed, visibility, and atmospheric pressure.",
+  tags: [
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "JavaScript",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Weather API",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: weather,
+  source_code_link: "https://github.com/saad0918/weather-app",live_link: "https://weather-app-nine-pink-42.vercel.app/",
+},
 ];
 const education = [
   {

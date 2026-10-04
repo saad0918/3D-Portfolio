@@ -29,6 +29,9 @@ import prodigy from "./company/prodigy.jpeg";
 import travel from "./travel.png";
 import smartAc from "./smart-ac.png";
 import ESG from "./ESG.png";
+import blogAi from "./blog-ai.png";
+import documentResearch from "./document-research.png";
+import weather from "./weather.png";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   travel,
   smartAc,
   ESG,
+  blogAi,
+  documentResearch,
+  weather,
 };
